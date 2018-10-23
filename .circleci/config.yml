@@ -17,7 +17,7 @@ jobs:
       - run: docker build -t tactless/ci-compose:test .
       - run: docker-compose up -d
       - run: docker build -f Dockerfile-test -t tactless/ci-compose-tests:test .
-      - run: docker run tactless/ci-compose-tests:test
+      - run: docker run --networkstactless/ci-compose-tests:test
       # - run:
       #     name: Start container and verify it's working
       #     command: |

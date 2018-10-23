@@ -4,8 +4,6 @@ services:
   ci-compose:
     container_name: ci-compose
     image: tactless/ci-compose:test
-    ports:
-      - 3030:3000
     depends_on:
       - database
   database:
