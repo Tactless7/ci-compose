@@ -17,3 +17,8 @@ jobs:
       - run: docker build -t tactless/ci-compose:test .
       - run: docker-compose up
       - run: npm test
+workflows:
+  version: 2
+  workflow:
+    jobs:
+      - build
