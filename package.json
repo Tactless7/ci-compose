@@ -1,0 +1,25 @@
+{
+  "name": "ci-compose",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tactless7/ci-compose.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tactless7/ci-compose/issues"
+  },
+  "homepage": "https://github.com/Tactless7/ci-compose#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "express": "^4.16.4",
+    "jest": "^23.6.0",
+    "mongodb": "^3.1.8"
+  }
+}
